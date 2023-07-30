@@ -1,0 +1,9 @@
+FROM python:3.11.4-alpine
+
+WORKDIR /server/srealitySpider
+
+ADD requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . srealitySpider
+
+CMD ["scrapy", "crawl", "sreality"]

@@ -1,0 +1,469 @@
+{
+  "meta_description": "",
+  "result_size": 66628,
+  "_embedded": {
+    "estates": [
+      {
+        "labelsReleased": [["parking_lots", "wooden", "furnished"], []],
+        "has_panorama": 0,
+        "labels": ["Parking", "Wooden building", "Furnished"],
+        "is_auction": false,
+        "labelsAll": [
+          ["parking_lots", "wooden", "furnished"],
+          [
+            "small_shop",
+            "tavern",
+            "candy_shop",
+            "playground",
+            "vet",
+            "school",
+            "post_office",
+            "restaurant",
+            "bus_public_transport",
+            "sports",
+            "atm",
+            "train",
+            "drugstore",
+            "kindergarten"
+          ]
+        ],
+        "seo": {
+          "category_main_cb": 2,
+          "category_sub_cb": 33,
+          "category_type_cb": 1,
+          "locality": "rehenice-vavretice-"
+        },
+        "exclusively_at_rk": 0,
+        "category": 2,
+        "has_floor_plan": 0,
+        "_embedded": {
+          "favourite": {
+            "is_favourite": false,
+            "_links": {
+              "self": {
+                "profile": "/favourite/doc",
+                "href": "/en/v2/favourite/3943650380",
+                "title": "Oblibene inzeraty"
+              }
+            }
+          },
+          "note": {
+            "note": "",
+            "_links": {
+              "self": {
+                "profile": "/note/doc",
+                "href": "/en/v2/note/3943650380",
+                "title": "Poznamky inzeratu"
+              }
+            },
+            "has_note": false
+          },
+          "company": {
+            "url": "Bidli-Praha-Nove-Mesto",
+            "id": 17843,
+            "name": "Bidli",
+            "logo_small": "https://d48-a.sdn.cz/d_48/c_img_F_K/EbiBQY.png?fl=res,140,140,3,ffffff"
+          }
+        },
+        "paid_logo": 1,
+        "locality": "\\u0158ehenice - Vav\\u0159etice, district Bene\\u0161ov",
+        "has_video": false,
+        "advert_images_count": 13,
+        "new": false,
+        "auctionPrice": 0.0,
+        "type": 1,
+        "hash_id": 3943650380,
+        "attractive_offer": 0,
+        "price": 1654000,
+        "price_czk": {
+          "value_raw": 1654000,
+          "unit": "",
+          "name": "Celkov\\u00e1 cena"
+        },
+        "_links": {
+          "dynamicDown": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QL_J4/5SXBwpw.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+            }
+          ],
+          "dynamicUp": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QL_J4/5SXBwpw.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+            }
+          ],
+          "iterator": {
+            "href": "/en/v2/estate-iterator/0?suggested_regionId=-1&suggested_districtId=-1&category_type_cb=1"
+          },
+          "self": { "href": "/en/v2/estates/3943650380" },
+          "images": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QL_J4/5SXBwpw.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QN_J5/NkDBcGe.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QK_Jn/shNBMQG.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QJ_Jn/saSQbb.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QP_K5/vvABeOM.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QN_J5/t7HBcGf.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            }
+          ],
+          "image_middle2": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QL_J4/5SXBwpw.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            }
+          ]
+        },
+        "rus": false,
+        "name": "For sale  huts 14\\u00a0m\\u00b2, land 1\\u00a0312\\u00a0m\\u00b2",
+        "region_tip": 0,
+        "gps": { "lat": 49.87968351499115, "lon": 14.633632485008851 },
+        "has_matterport_url": false
+      },
+      {
+        "labelsReleased": [[], ["bus_public_transport", "post_office"]],
+        "has_panorama": 0,
+        "labels": ["Bus 1 min walk", "Post office 1 min walk"],
+        "is_auction": false,
+        "labelsAll": [
+          [""],
+          [
+            "small_shop",
+            "playground",
+            "post_office",
+            "school",
+            "bus_public_transport",
+            "kindergarten",
+            "train",
+            "atm",
+            "sports",
+            "restaurant",
+            "drugstore"
+          ]
+        ],
+        "seo": {
+          "category_main_cb": 3,
+          "category_sub_cb": 19,
+          "category_type_cb": 1,
+          "locality": "zbraslavice--"
+        },
+        "exclusively_at_rk": 0,
+        "category": 3,
+        "has_floor_plan": 0,
+        "_embedded": {
+          "favourite": {
+            "is_favourite": false,
+            "_links": {
+              "self": {
+                "profile": "/favourite/doc",
+                "href": "/en/v2/favourite/47564620",
+                "title": "Oblibene inzeraty"
+              }
+            }
+          },
+          "note": {
+            "note": "",
+            "_links": {
+              "self": {
+                "profile": "/note/doc",
+                "href": "/en/v2/note/47564620",
+                "title": "Poznamky inzeratu"
+              }
+            },
+            "has_note": false
+          },
+          "company": {
+            "url": "Bidli-Praha-Nove-Mesto",
+            "id": 17843,
+            "name": "Bidli",
+            "logo_small": "https://d48-a.sdn.cz/d_48/c_img_F_K/EbiBQY.png?fl=res,140,140,3,ffffff"
+          }
+        },
+        "paid_logo": 1,
+        "locality": "Zbraslavice, district Kutn\\u00e1 Hora",
+        "has_video": false,
+        "advert_images_count": 15,
+        "new": false,
+        "auctionPrice": 0.0,
+        "type": 1,
+        "hash_id": 47564620,
+        "attractive_offer": 0,
+        "price": 689000,
+        "price_czk": {
+          "alt": { "value_raw": 1494.58, "unit": "per m\\u00b2" },
+          "value_raw": 689000,
+          "unit": "",
+          "name": "Celkov\\u00e1 cena"
+        },
+        "_links": {
+          "dynamicDown": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QO_K1/hPVBz7r.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+            }
+          ],
+          "dynamicUp": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QO_K1/hPVBz7r.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+            }
+          ],
+          "iterator": {
+            "href": "/en/v2/estate-iterator/1?suggested_regionId=-1&suggested_districtId=-1&category_type_cb=1"
+          },
+          "self": { "href": "/en/v2/estates/47564620" },
+          "images": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QO_K1/hPVBz7r.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QJ_Jn/aFpBOWS.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QN_J9/ewRQPO.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QL_J5/J08uLH.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QM_Kc/9acBOXb.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QR_MD/kcYBOJf.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            }
+          ],
+          "image_middle2": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QO_K1/hPVBz7r.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            }
+          ]
+        },
+        "rus": false,
+        "name": "For sale  building plots 837\\u00a0m\\u00b2",
+        "region_tip": 0,
+        "gps": { "lat": 49.806276514991154, "lon": 15.188703485008851 },
+        "has_matterport_url": false
+      },
+      {
+        "labelsReleased": [
+          ["new_building", "personal", "balcony"],
+          ["kindergarten"]
+        ],
+        "has_panorama": 0,
+        "labels": [
+          "New buildings",
+          "Personal owenship",
+          "Balcony",
+          "Kindergarten 4 min walk"
+        ],
+        "is_auction": false,
+        "labelsAll": [
+          [
+            "new_building",
+            "personal",
+            "balcony",
+            "brick",
+            "garage",
+            "furnished"
+          ],
+          [
+            "small_shop",
+            "candy_shop",
+            "tavern",
+            "movies",
+            "vet",
+            "playground",
+            "theater",
+            "atm",
+            "train",
+            "restaurant",
+            "post_office",
+            "bus_public_transport",
+            "shop",
+            "school",
+            "kindergarten",
+            "sports",
+            "drugstore"
+          ]
+        ],
+        "seo": {
+          "category_main_cb": 1,
+          "category_sub_cb": 6,
+          "category_type_cb": 1,
+          "locality": "velke-prilepy-velke-prilepy-bozeny-nemcove"
+        },
+        "exclusively_at_rk": 0,
+        "category": 1,
+        "has_floor_plan": 1,
+        "_embedded": {
+          "favourite": {
+            "is_favourite": false,
+            "_links": {
+              "self": {
+                "profile": "/favourite/doc",
+                "href": "/en/v2/favourite/413668428",
+                "title": "Oblibene inzeraty"
+              }
+            }
+          },
+          "note": {
+            "note": "",
+            "_links": {
+              "self": {
+                "profile": "/note/doc",
+                "href": "/en/v2/note/413668428",
+                "title": "Poznamky inzeratu"
+              }
+            },
+            "has_note": false
+          },
+          "company": {
+            "url": "Bidli-Praha-Nove-Mesto",
+            "id": 17843,
+            "name": "Bidli",
+            "logo_small": "https://d48-a.sdn.cz/d_48/c_img_F_K/EbiBQY.png?fl=res,140,140,3,ffffff"
+          }
+        },
+        "paid_logo": 1,
+        "locality": "Velk\\u00e9 P\\u0159\\u00edlepy, district Praha-z\\u00e1pad",
+        "has_video": false,
+        "advert_images_count": 30,
+        "new": false,
+        "auctionPrice": 0.0,
+        "type": 1,
+        "hash_id": 413668428,
+        "attractive_offer": 0,
+        "price": 3831000,
+        "price_czk": {
+          "value_raw": 3831000,
+          "unit": "",
+          "name": "Celkov\\u00e1 cena"
+        },
+        "_links": {
+          "dynamicDown": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QP_K2/24oYK2.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+            }
+          ],
+          "dynamicUp": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QP_K2/24oYK2.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+            }
+          ],
+          "iterator": {
+            "href": "/en/v2/estate-iterator/2?suggested_regionId=-1&suggested_districtId=-1&category_type_cb=1"
+          },
+          "self": { "href": "/en/v2/estates/413668428" },
+          "images": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QP_K2/24oYK2.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QQ_Ld/M4eYIy.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QL_J2/jQjYJD.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QQ_Ld/hJqYIz.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QM_Ka/6C9YF3.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            },
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QJ_Jl/f77YKY.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            }
+          ],
+          "image_middle2": [
+            {
+              "href": "https://d18-a.sdn.cz/d_18/c_img_QP_K2/24oYK2.jpeg?fl=res,400,300,3|shr,,20|jpg,90"
+            }
+          ]
+        },
+        "rus": false,
+        "name": "For sale apartment 3+kt 45\\u00a0m\\u00b2",
+        "region_tip": 0,
+        "gps": { "lat": 50.15762551499115, "lon": 14.307619485008852 },
+        "has_matterport_url": false
+      }
+    ],
+    "is_saved": {
+      "email_notification": false,
+      "notification_advert_count": 0,
+      "stack_id": 0,
+      "push_notification": false,
+      "_links": { "self": { "href": "/en/v2/stacks" } },
+      "removed": false,
+      "saved": false
+    },
+    "not_precise_location_count": {
+      "result_size_auction": 35,
+      "result_size": 23189,
+      "_links": {
+        "self": {
+          "profile": "/estates/count/doc",
+          "href": "/en/v2/estates/count?category_type_cb=3",
+          "title": "Estate count"
+        }
+      }
+    }
+  },
+  "filterLabels": [],
+  "title": "",
+  "filter": {
+    "suggested_districtId": -1,
+    "category_type_cb": "1",
+    "suggested_regionId": -1
+  },
+  "_links": {
+    "self": { "href": "/en/v2/estates?category_type_cb=1&page=1" },
+    "clusters_with_bounding_box_of_first_10": {
+      "href": "/en/v2/clusters?category_main_cb=&tms=1690675338262&per_page=3&leftBottomBounding=14.307619485|49.806276515&category_type_cb=1&rightTopBounding=15.188703485|50.157625515"
+    },
+    "rss": {
+      "href": "/api/en/v2/estates/rss?category_type_cb=1&suggested_regionId=-1&suggested_districtId=-1"
+    }
+  },
+  "locality": "district Bene\\u0161ov",
+  "locality_dativ": "in Bene\\u0161ov",
+  "logged_in": false,
+  "per_page": 3,
+  "page": 1,
+  "filterLabels2": {
+    "something_more3_3310": "elevator",
+    "something_more1_3120": "cellar",
+    "something_more1_3100": "loggia",
+    "furnished_1": "furnished",
+    "furnished_2": "partly_furnished",
+    "furnished_3": "not_furnished",
+    "building_condition_9": "after_reconstruction",
+    "something_more2_3150": "garage",
+    "something_more2_3130": "basin",
+    "ownership_1": "personal",
+    "ownership_3": "state",
+    "ownership_2": "collective",
+    "something_more3_1820": "easy_access",
+    "energy_efficiency_rating_search_7": "energy_rating_g",
+    "energy_efficiency_rating_search_6": "energy_rating_f",
+    "energy_efficiency_rating_search_5": "energy_rating_e",
+    "energy_efficiency_rating_search_4": "energy_rating_d",
+    "energy_efficiency_rating_search_3": "energy_rating_c",
+    "energy_efficiency_rating_search_2": "energy_rating_b",
+    "energy_efficiency_rating_search_1": "energy_rating_a",
+    "something_more1_3110": "terrace",
+    "building_condition_6": "new_building",
+    "something_more1_3090": "balcony",
+    "building_condition_4": "in_construction",
+    "building_type_search_3": "other_sigular",
+    "something_more2_3120": "cellar",
+    "building_type_search_1": "panel",
+    "something_more2_3140": "parking_lots",
+    "something_more1_200222": "garden",
+    "building_type_search_2": "brick"
+  }
+}

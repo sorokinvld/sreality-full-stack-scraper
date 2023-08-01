@@ -1,6 +1,6 @@
 import json
 import scrapy
-from srealitySpider.items import FlatItem
+from ..items import FlatItem
 
 
 class SrealitySpider(scrapy.Spider):

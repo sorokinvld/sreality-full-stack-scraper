@@ -1,0 +1,9 @@
+FROM python:3
+
+WORKDIR /usr/app/srealitySpider
+
+RUN pip install --no-cache-dir psycopg2-binary==2.9.6 Scrapy==2.9.0
+
+COPY . .
+
+CMD [ "python3", "run_spider.py" ]

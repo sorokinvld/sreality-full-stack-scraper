@@ -30,19 +30,9 @@ const HomePage = () => {
     `http://127.0.0.1:8080/api/data`,
     fetchData
   );
-
-  if (error) {
-    console.log(error)
-    return (
-      <div>
-        Got unexpected error
-      </div>
-    );
-  }
-  // console.log(flats)
-
+  console.log(data)
   return (
-    <main className="bg-gray-900 flex w-full h-fit flex-col items-center">
+    <main className="text-white bg-gray-900 flex w-full h-fit flex-col items-center">
       <div className="z-10 max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
         <div className="pt-12 md:pt-16">
@@ -76,42 +66,19 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      {error && (
-        <div>
+      {error ? (
+        <div className=" text-center" >
           Couldnt load data
         </div>
-      )}
-      {isLoading ? (
-        <div>Loading</div>
-      ) : (
+      ): (
         <>
-          <div className="mt-8 mb-32 grid gap-8 lg:mb-0 md:grid-cols-2 lg:grid-cols-3">
-            {data.map((item: any, index: number) => (
-              <div className="flex bg-black/40 flex-col w-fit h-fit p-3 rounded-md cursor-pointer transition hover:scale-105" key={index}>
-                {/* IMAGE AREA */}
-                <Image 
-                  objectFit="cover"
-                  width={400}
-                  height={300}
-                  alt={item[0]}
-                  src={item[1]}
-                  className="rounded-md"
-                />
-                {/* FOOTER AREA */}
-                <p className="text-white py-4">
-                  {item[0]}
-                </p>
-              </div>
-            ))}
-          </div>
-          <button
-            onClick={() => setPage((prevPage) => Math.max(prevPage - 1, 1))}
-          >
-            Previous
-          </button>
-          <button onClick={() => setPage((prevPage) => prevPage + 1)}>
-            Next
-          </button>
+          {isLoading ? (
+            <div className="text-white text-center">Loading</div>
+          ) : (
+            <>
+              Loaded!!!
+            </>
+          )}
         </>
       )}
     </main>

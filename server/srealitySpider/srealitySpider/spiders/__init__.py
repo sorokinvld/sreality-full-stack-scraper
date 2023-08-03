@@ -1,1 +1,0 @@
-from .sreality import SrealitySpider

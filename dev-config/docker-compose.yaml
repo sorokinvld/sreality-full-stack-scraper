@@ -9,8 +9,7 @@ services:
       POSTGRES_USER: ${DATABASE_USERNAME}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
     volumes:
-      - ../server/db:/var/lib/postgresql/data
-      - ../server/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
+      - ../server/db:/var/lib/postgresql/data:rw
     ports:
       - "5432:5432"
     networks:
@@ -29,17 +28,38 @@ services:
     depends_on:
       - db
 
+  scrapy:
+    container_name: scrapy
+    restart: on-failure:10
+    build:
+      context: "../server"
+      dockerfile: "../dev-config/Dockerfile.scrapy"
+    environment:
+      DATABASE_CLIENT: ${DATABASE_CLIENT}
+      DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_PORT: ${DATABASE_PORT}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+    volumes:
+      - "../server/scrapy_spider/:/usr/app/scrapy_spider"
+    depends_on:
+      - backend
+    networks:
+      - globalnetwork
+
   backend:
     container_name: backend
     build:
       context: ../server
       dockerfile: ../dev-config/Dockerfile.server
     environment:
-      DATABASE_NAME: ${DATABASE_NAME}
-      DATABASE_USERNAME: ${DATABASE_USERNAME}
-      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       DATABASE_CLIENT: ${DATABASE_CLIENT}
       DATABASE_HOST: ${DATABASE_HOST}
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_PORT: ${DATABASE_PORT}
+      DATABASE_USERNAME: ${DATABASE_USERNAME}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       DATABASE_SSL: "false"
     volumes:
       - ../server:/usr/app
@@ -64,3 +84,7 @@ services:
 
 networks:
   globalnetwork:
+
+volumes:
+  db:
+    external: true

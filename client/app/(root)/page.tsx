@@ -5,10 +5,11 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import useSWR from "swr";
 import Image from "next/image";
+import PreviousMap from "postcss/lib/previous-map";
 
 const HomePage = () => {
   const [page, setPage] = useState(1);
-  const itemsPerPage = 24;
+  const itemsPerPage = 12;
 
   const fetchData = async (url: string) => {
     try {
@@ -32,7 +33,7 @@ const HomePage = () => {
   );
   console.log(data)
   return (
-    <main className="text-white bg-gray-900 flex w-full h-fit flex-col items-center">
+    <main className="text-white flex w-full h-fit flex-col items-center mb-10">
       <div className="z-10 max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
         <div className="pt-12 md:pt-16">
@@ -42,10 +43,10 @@ const HomePage = () => {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 dark:text-white text-black"
               data-aos="zoom-y-out"
             >
-              Best flats in
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-red-400">
+              Let's Find Your
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
                 <br />
-                Czechia
+                Comfort House!
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
@@ -54,7 +55,7 @@ const HomePage = () => {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Discover best flats on out website!
+                Modern & Classic
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -76,7 +77,39 @@ const HomePage = () => {
             <div className="text-white text-center">Loading</div>
           ) : (
             <>
-              Loaded!!!
+              <div className="mt-8 mb-32 grid gap-8 lg:mb-0 md:grid-cols-2 lg:grid-cols-3">
+                {data.map((item: any, index: number) => (
+                  <div className="relative flex flex-col items-center w-fit h-fit cursor-pointer transition" key={index}>
+                    {/* IMAGE AREA */}
+                    <Image 
+                      objectFit="cover"
+                      width={400}
+                      height={300}
+                      alt={item[0]}
+                      src={item[1]}
+                      className="rounded-2xl"
+                    />
+                    {/* FOOTER AREA */}
+                    <p className="rounded-2xl w-11/12 text-lg font-semibold -translate-y-8 bg-gray-900 text-white p-6 z-20">
+                      {item[0]}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              <div className="text-white flex gap-4">
+                <button
+                  className={`${page === 1 ? "hidden" : ""}`}
+                  onClick={() => setPage((prevPage) => Math.max(prevPage - 1, 1))}
+                >
+                  Previous
+                </button>
+                <button 
+                  className={`${page === 42 ? "hidden" : ""}`}
+                  onClick={() => setPage((prevPage) => prevPage + 1)}
+                >
+                  Next
+                </button>
+              </div>
             </>
           )}
         </>

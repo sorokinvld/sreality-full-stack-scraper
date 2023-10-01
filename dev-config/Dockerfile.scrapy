@@ -1,9 +1,0 @@
-FROM python:3.11.4-alpine
-
-WORKDIR /usr/app/scrapy_spider
-
-RUN pip install --no-cache-dir psycopg2-binary==2.9.6 Scrapy==2.9.0 SQLAlchemy===2.0.19
-
-COPY . .
-
-CMD scrapy crawl sreality
